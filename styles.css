@@ -1,17 +1,31 @@
 body{
+    color: #1b335f;
     text-align: center;
+    font-family: 'Indie Flower', cursive;
+    background-color: aqua;
 }
+
+button{
+    position: relative;
+    top: 50%;
+
+}
+
 
 h1{
     font-family: 'Lobster', cursive;
-    font-size: 10rem;
-    margin: 0 0 5rem;
+    font-size: 8rem;
+    padding: 4rem;
+}
+p{
+    padding: 2rem 0;
+    margin: 3rem 0 0;
 }
 
-.container{
-    background-color: aqua;
-    margin: 2rem 5rem;
 
+.holder{
+    width: 70%;
+    margin: auto;
 }
 
 
@@ -19,6 +33,11 @@ h1{
     width: 1%;
 }
 
-
-/*font-family: 'Lobster', cursive;*/
-/*font-family: 'Indie Flower', cursive;*/
+/*@media (max-width: 600px) {*/
+    /*.title-img{*/
+        /*position: static;*/
+        /*transform: rotate(0deg);*/
+    /*}*/
+    /*#title{*/
+        /*text-align: center;*/
+    /*}*/
